@@ -22,3 +22,20 @@ I can do it and become a Frontend Developer.
 + Git/GitHub
 + VS Code
 + JavaScript Basics (in process)
+
+### Code example #
+
+
+### Education #
+
++ __Belarusian State Technological University__   
+Chemical Process Engineer, 2003-2008
++ __The Rolling Scopes School__  
+JavaScript/Front-end, in process
++ __JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/)__  
+in process
+
+### Languages #
+
++ English - A2 (B1 in process)
++ Russian - native speaker
