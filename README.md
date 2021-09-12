@@ -1,1 +1,0 @@
-https://LisaDobruk.github.io/rsschool-cv/cv
