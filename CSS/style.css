@@ -1,0 +1,68 @@
+.all-page{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: darkslategrey;
+    background-color: #e2c9c3;
+}
+.main-box{
+    display: flex;
+}
+.left-side{
+    width: 320px;
+    background-color: #e0b9ca;
+}
+.left-side figure{
+    margin-left: 0px;
+}
+.title-name{
+    position: relative;
+    margin: 0;
+    margin-bottom: 35px;
+    padding-left: 50px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    color:darkslategrey ;
+    
+}
+.left-side .title-name{
+    background-color: #9b8f95;
+}
+.right-side .title-name{
+    background-color: #e0b9ca;
+}
+.title-name::before{
+    position: absolute; 
+    content: ""; 
+    left: 0;
+    height: 40px;
+    width: 25px;
+    background-color: #bbcacc;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9b8f95;
+}
+.portrait{
+    margin: 0;
+}
+.name-position{
+    text-align: center;
+    color:darkslategrey;
+}
+.main-name{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.main-position{
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-weight: 600
+}
+.contact-list{
+        line-height: 30px;
+        list-style: none;
+    
+}
