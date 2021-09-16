@@ -1,14 +1,60 @@
+
 .all-page{
+    position: relative;
+    margin: 0;
+    padding: 0 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: darkslategrey;
-    background-color: #e2c9c3;
+    
+}
+@media(max-width: 380px){
+    .all-page{
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.head-list{
+    display: flex;
+    margin: 0;
+    padding: 20px 15px;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+}
+.head-list li a{
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+.head-list li a:hover{
+    border: 2px solid #997e8b;
+    border-radius: 3px;
 }
 .main-box{
     display: flex;
+    line-height: 30px
+}
+@media(max-width: 550px) {
+    .main-box{
+        flex-direction: column
+    }
+}
+@media (max-width: 550px) {
+    .right-side{
+        margin-top: 10px;
+    }
+    
 }
 .left-side{
-    width: 320px;
+    width: 310px;
     background-color: #e0b9ca;
+}
+@media (max-width: 550px) {
+    .left-side{
+        display: block;
+        width: auto;
+    }
 }
 .left-side figure{
     margin-left: 0px;
@@ -16,16 +62,15 @@
 .title-name{
     position: relative;
     margin: 0;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     padding-left: 50px;
     font-size: 24px;
-    line-height: 40px;
     font-weight: 600;
     color:darkslategrey ;
     
 }
 .left-side .title-name{
-    background-color: #9b8f95;
+    background-color: #997e8b;
 }
 .right-side .title-name{
     background-color: #e0b9ca;
@@ -34,7 +79,7 @@
     position: absolute; 
     content: ""; 
     left: 0;
-    height: 40px;
+    height: 30px;
     width: 25px;
     background-color: #bbcacc;
 }
@@ -42,27 +87,39 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #9b8f95;
+    background-color: #9e798b;
+}
+.footer a{
+    text-decoration: none;
 }
 .portrait{
     margin: 0;
 }
+@media (max-width: 550px){
+    .portrait{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+
+    }
+}
 .name-position{
     text-align: center;
-    color:darkslategrey;
 }
 .main-name{
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     font-size: 50px;
 }
 .main-position{
     margin-top: 0;
     margin-bottom: 45px;
-    font-weight: 600
+    font-weight: 600;
 }
 .contact-list{
-        line-height: 30px;
-        list-style: none;
+    list-style: none;
     
+}
+.myself-text{
+    padding-left: 30px;
 }

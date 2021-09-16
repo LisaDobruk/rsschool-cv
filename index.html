@@ -8,29 +8,29 @@
     <title>Liza Dobruk</title>
 </head>
 <body class="all-page">
-  <header>
-    <ul>
-      <li>Contact</li>
-      <li>About myself</li>
-      <li>Skills</li>
-      <li>Code example</li>
-      <li>Education</li>
-      <li>Languages</li>
+  <header class="head">
+    <ul class="head-list">
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#aboutmyself">About myself</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#codeexample">Code example</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#languages">Languages</a></li>
     </ul>      
   </header>
 
   <main class="main-box">
     <div class="left-side">
-      <figure class="portrait">
-        <img src="./Pictures/myphoto.jpg" width="300" alt="portrait Liza Dobruk"> 
-      </figure>
+      <div>
+        <img class="portrait" src="./Pictures/myphoto.jpg" width="300" alt="portrait Liza Dobruk"> 
+      </div>
       <section class="name-position">  
         <h1 class="main-name">Liza Dobruk</h1>
         <h3 class="main-position">Javascript/Frontend developer</h3>     
       </section>
       
       <section>
-        <h3 class="title-name">Contact</h3>
+        <h3 class="title-name" id="contact">Contact</h3>
         <ul class="contact-list">
           <li><img src="./Pictures/fi_phone.png" width="15" alt="phone icon"> Phone: <a href="tel:+375295699544">+375295699544</a></li>
           <li><img src="./Pictures/fi_mail.png" width="15" alt="email icon"> E-mail: <a href="mailto:liskam8525@gmail.com">liskam8525@gmail.com</a></li>
@@ -38,25 +38,7 @@
         </ul>
       </section>
       <section>
-        <h3 class="title-name">Education</h3>
-        <ul>
-          <li>Belarusian State Technological University<br>Chemical Process Engineer, 2003-2008</li>
-          <li>The Rolling Scopes School<br>JavaScript/Front-end, in process</li>
-          <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learnjavascript.ru</a><br>in process</li>    
-        </ul>    
-      </section>  
-
-    </div>
-    <div class="right-side">
-      <section>
-        <h3 class="title-name">About myself</h3>
-        <p>I've worked as a process engineer, shift supervisor, chemical engineer, customer service specialist, and lead purchasing specialist for an online store.<br> 
-            One day I got into a 10-day HTML/CSS layout marathon. And I realized how fascinatingly and amazing it is to create and layout websites and applications.<br>  
-            Looking at my previous experience, I realize that I can do anything.<br>  
-            I can do it and become a Frontend Developer.</p>    
-      </section>
-      <section>
-        <h3 class="title-name">Skills</h3>
+        <h3 class="title-name" id="skills">Skills</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -66,12 +48,32 @@
         
         </ul>    
       </section>
+    </div>
+    <div class="right-side">
       <section>
-        <h3 class="title-name">Code example</h3>
+        <h3 class="title-name" id="aboutmyself">About myself</h3>
+        <div class="myself-text">
+          <p>I've worked as a process engineer, shift supervisor, chemical engineer, customer service specialist, and lead purchasing specialist for an online store.</p> 
+          <p>One day I got into a 10-day HTML/CSS layout marathon. And I realized how fascinatingly and amazing it is to create and layout websites and applications.</p>  
+          <p>Look at my previous experience, I realize that I can do anything.</p>   
+          <p>I can do it and become a Frontend Developer.</p>
+        </div>   
+      </section>
+      <section>
+        <h3 class="title-name" id="education">Education</h3>
+        <ul>
+          <li><strong>Belarusian State Technological University</strong><br>Chemical Process Engineer, 2003-2008</li>
+          <li><strong>Rolling Scopes School</strong><br>JavaScript/Front-end, in process</li>
+          <li><strong>Manual on</strong> <a href="https://learn.javascript.ru/">learnjavascript.ru</a><br>in process</li>    
+        </ul>    
+      </section>  
+      
+      <section>
+        <h3 class="title-name" id="codeexample">Code example</h3>
 
       </section>
       <section>
-        <h3 class="title-name">Languages</h3>
+        <h3 class="title-name" id="languages">Languages</h3>
         <ul>
           <li>English - A2 (B1 in process)</li>
           <li>Russian - native speaker</li>
@@ -83,7 +85,7 @@
   <footer class="footer">
     <a href="https://github.com/LisaDobruk">
       <img src="./Pictures/Github_black.png" width="20" alt="icon of GitHub">
-      My GitHub
+      Visit my GitHub
     </a>
     <p>2021</p>
     <a href="https://rs.school/js/">
