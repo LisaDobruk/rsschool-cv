@@ -33,6 +33,11 @@
     list-style: none;
     cursor: pointer;
 }
+@media(max-width: 700px) {
+    .head-list{
+        flex-wrap: wrap
+    }
+}
 .head-list li a{
     text-decoration: none;
     border: 1px solid transparent;
@@ -45,12 +50,12 @@
     display: flex;
     line-height: 30px
 }
-@media(max-width: 550px) {
+@media(max-width: 700px) {
     .main-box{
         flex-direction: column
     }
 }
-@media (max-width: 550px) {
+@media (max-width: 700px) {
     .right-side{
         margin-top: 10px;
     }
@@ -60,7 +65,7 @@
     width: 310px;
     background-color: #e0b9ca;
 }
-@media (max-width: 550px) {
+@media (max-width: 700px) {
     .left-side{
         display: block;
         width: auto;
@@ -105,7 +110,7 @@
 .portrait{
     margin: 0;
 }
-@media (max-width: 550px){
+@media (max-width: 700px){
     .portrait{
        display: block;
        margin-left: auto;
@@ -132,4 +137,12 @@
 }
 .myself-text{
     padding-left: 30px;
+}
+.my-projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-text{
+    color: #9e798b;
 }
