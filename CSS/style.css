@@ -6,7 +6,8 @@
     width: 1024px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: darkslategrey;
-    box-shadow: 0px 20px 20px 0px #9e798b;
+    scroll-behavior: smooth;
+    
     
 }
 
@@ -35,14 +36,16 @@
 }
 @media(max-width: 700px) {
     .head-list{
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
 }
 .head-list li a{
+    display: block;
+    padding: 12px 24px;
     text-decoration: none;
     color: darkslategrey;
     border: 1px solid transparent;
-}
+    }
 .head-list li a:hover{
     color: aliceblue;
     background-color: #997e8b;
@@ -51,7 +54,8 @@
 }
 .main-box{
     display: flex;
-    line-height: 30px
+    line-height: 30px;
+    box-shadow: 0px 20px 20px 0px #9e798b;
 }
 @media(max-width: 700px) {
     .main-box{
@@ -76,6 +80,8 @@
 }
 .left-side figure{
     margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 .title-name{
     position: relative;
