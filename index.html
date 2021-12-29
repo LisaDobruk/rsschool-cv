@@ -9,16 +9,18 @@
     <title>CV Liza Dobruk</title>
 </head>
 <body class="all-page">
-  <header class="head">
-    <ul class="head-list">
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#aboutmyself">About myself</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#projects">Recent projects</a></li>
-      <li><a href="#codeexample">Code example</a></li>
-      <li><a href="#languages">Languages</a></li>
-    </ul>      
+  <header>
+    <nav class="head">
+      <ul class="head-list">
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#aboutmyself">About myself</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Recent projects</a></li>
+        <li><a href="#codeexample">Code example</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </nav>       
   </header>
 
   <main class="main-box">
@@ -42,10 +44,11 @@
       <section>
         <h3 class="title-name" id="skills">Skills</h3>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
           <li>Git/GitHub</li>
           <li>VS Code</li>
+          <li>Figma</li>
           <li>JavaScript Basics (in process)</li>
         
         </ul>    
@@ -86,8 +89,17 @@
 
       <section>
         <h3 class="title-name" id="codeexample">Code example</h3>
-
-      </section>
+        <pre><code>
+          function euclideanDistance(point1, point2){
+            let result = 0;
+            for(let i = 0; i < point1.length; i++){
+              result = result + Math.pow(point2[i] - point1[i], 2);
+            }
+            let distance = Math.sqrt(result);
+            return +distance.toFixed(2);
+           }
+            </code>    
+        </pre>
       <section>
         <h3 class="title-name" id="languages">Languages</h3>
         <ul>
